@@ -1,4 +1,3 @@
-
 $(function() {
     describe('RSS Feeds', function() {
 
