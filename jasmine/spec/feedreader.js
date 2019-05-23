@@ -42,7 +42,10 @@ $(function() {
          * and that the name is not empty.
          */
         it('have name', function() {
-
+            for(feed of allFeeds) {
+                expect(feed.name).toBeDefined();
+                expect(feed.name).not.toBe('');
+            }
         });
     });
 
