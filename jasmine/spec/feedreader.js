@@ -31,7 +31,9 @@ $(function() {
          * and that the URL is not empty.
          */
         it('have URL', function() {
-            
+            for(feed of allFeeds) {
+                expect(feed.url).not.toBe('');
+            }
         });
 
         /* TODO: Write a test that loops through each feed
