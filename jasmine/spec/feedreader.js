@@ -32,6 +32,7 @@ $(function() {
          */
         it('have URL', function() {
             for(feed of allFeeds) {
+                expect(feed.url).toBeDefined();
                 expect(feed.url).not.toBe('');
             }
         });
